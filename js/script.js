@@ -2,14 +2,18 @@
 let form = document.getElementById('myForm')
 let login = document.getElementById('name')
 let password = document.getElementById('email')
+let date = document.getElementById('datepicker')
+
 if (localStorage.length != 0) {
     login.value = localStorage.login
     password.value = localStorage.password
+    date.value = localStorage.date
 }
     
 form.addEventListener('submit', () => {
     localStorage.login = login.value
     localStorage.password = password.value
+    localStorage.date = date.value
 })
 //WEBSTORAGE_API
 
