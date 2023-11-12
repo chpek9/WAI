@@ -39,3 +39,29 @@ function showText() {
     }
 }
 //MODIFICATION_PAGE 
+
+//UI_1
+$(document).ready(function () {
+    $("#datepicker").datepicker();
+});
+//UI_1
+
+//UI_2
+$(document).ready(function() {
+      var dialogOpened = false;
+
+      $("#dialog").dialog({
+        autoOpen: false,
+        close: function() {
+          dialogOpened = true;
+        }
+      });
+
+      $("#clr").on("click", function() {
+        if (!dialogOpened) {
+          $("#dialog").dialog("open");
+        }
+      });
+    });
+//UI_2
+

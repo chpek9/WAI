@@ -3,7 +3,9 @@
 <head>
     <link rel="stylesheet" href="css/main.css">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
 
@@ -11,14 +13,20 @@
             <nav>
                 <a href="index.html" class = "start">Kontakt</a>
                 <a href="mojehobby.html" class = "start">Moje Hobby</a>
-                <a href="legends.html" class = "start">Legends</a>
-                <button class = "start" type="button" onclick="changeColor()">Zmień kolor</button>
+                <a href="legends.html" class = "start">Gwiazdy kolarstwa</a>
+                <button class = "start" type="button" onclick="changeColor()" id = "clr">Zmień kolor</button>
             </nav>
         </header>
+
+        <div id="dialog">
+            <p>Kolor można przywrócić, ponownie naciskając przycisk</p>
+        </div>
+
             <h1 class = "start">Skontaktuj się ze mną!</h1>
             <form action="odbierz.php" method="post" id="myForm" class = "start"> 
                 Imie: <input type="text" id = "name" class = "start">
                 email: <input type="text" id = "email" class = "start">
+                Data: <input type="text" id="datepicker">
                 <input type="submit" class = "start">
                 <button type = "button" class = "start" onclick="showText()">Wskazowka</button>
             </form>
