@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #B6B5B5;
+  padding: 15px;
+  color: black;
+}
+
+
+nav a {
+  color: black;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: black;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}
+
+#arkush1 {
+  font-size: 25px;
+  float: left;
+  width: 50%;
+}
+
+#myimage {
+  float: right;
+  width: 50%;
+}

@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #B6B5B5;
+  padding: 15px;
+  color: black;
+}
+
+
+nav a {
+  color: black;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: black;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 430px;
+  margin: 0 auto;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px #514D4D;
+  letter-spacing: 1px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form input[type="text"] {
+  width: 100%; 
+  padding: 0 0 10px 0;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid;
+  color: #333;
+  background-color: transparent;
+  outline: none;
+  resize: none;
+}
+
+form button,
+form input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  outline: none;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 140px);
+}
+
+.gallery img {
+  max-width: 100%;
+  max-height: 100%;
+  border: 2px solid #333;
+  margin: 0 10px;
+}
+
+.controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.controls button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.section{
+  font-size: 45px;
+  text-align: left;
+}

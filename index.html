@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+        <header>
+            <nav>
+                <a href="index.html" class = "start">Kontakt</a>
+                <a href="mojehobby.html" class = "start">Moje Hobby</a>
+                <a href="legends.html" class = "start">Legends</a>
+                <button class = "start" type="button" onclick="changeColor()">Zmień kolor</button>
+            </nav>
+        </header>
+            <h1 class = "start">Skontaktuj się ze mną!</h1>
+            <form action="odbierz.php" method="post" id="myForm" class = "start"> 
+                Imie: <input type="text" id = "name" class = "start">
+                email: <input type="text" id = "email" class = "start">
+                <input type="submit" class = "start">
+                <button type = "button" class = "start" onclick="showText()">Wskazowka</button>
+            </form>
+    <script src="js/script.js"></script>
+</body>
+</html>
